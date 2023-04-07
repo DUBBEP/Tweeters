@@ -10,6 +10,10 @@ public class Bird : MonoBehaviour
     Vector2 _startPosition;
     Rigidbody2D _rigidbody2D;
     SpriteRenderer _spriteRenderer;
+    bool hasBeenReset;
+
+    public bool IsDragging { get; private set; }
+
     // Start is called before the first frame update
     void Awake()
     {
@@ -26,6 +30,7 @@ public class Bird : MonoBehaviour
     void OnMouseDown()
     {
         GetComponent<SpriteRenderer>().color = Color.red;
+        IsDragging = true;
     }
 
     void OnMouseUp()
@@ -38,7 +43,7 @@ public class Bird : MonoBehaviour
         _rigidbody2D.AddForce(direction * _launchForce);
 
         GetComponent<SpriteRenderer>().color = Color.white;
-
+        IsDragging = false;
     }
 
     void OnMouseDrag()
@@ -70,7 +75,11 @@ public class Bird : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        StartCoroutine(ResetAfterDelay());
+        if (!hasBeenReset)
+        {
+            StartCoroutine(ResetAfterDelay());
+            hasBeenReset = true;
+        }
     }
 
     IEnumerator ResetAfterDelay()
@@ -79,5 +88,7 @@ public class Bird : MonoBehaviour
         _rigidbody2D.position = _startPosition;
         _rigidbody2D.isKinematic = true;
         _rigidbody2D.velocity = Vector2.zero;
+        Debug.Log("Bird has been reset.");
+        hasBeenReset = false;
     }
 }
