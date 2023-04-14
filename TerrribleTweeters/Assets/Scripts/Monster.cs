@@ -8,8 +8,28 @@ public class Monster : MonoBehaviour
 {
     [SerializeField] Sprite _deadSprite;
     [SerializeField] ParticleSystem _particleSystem;
-    
+    [SerializeField] AudioClip[] _clips;
+
+
     private bool _hasDied;
+
+    private void OnMouseDown()
+    {
+        GetComponent<AudioSource>().Play();
+    }
+
+    IEnumerator Start()
+    {
+        while(_hasDied == false)
+        {
+            float delay = UnityEngine.Random.Range(5, 30);
+            yield return new WaitForSeconds(delay);
+            if (_hasDied == false)
+            {
+                GetComponent<AudioSource>().Play();
+            }
+        }
+    }
 
     void OnCollisionEnter2D(Collision2D collision)
     {
@@ -38,6 +58,9 @@ public class Monster : MonoBehaviour
     {
 
         _hasDied = true;
+        int index = UnityEngine.Random.Range(0, _clips.Length);
+        AudioClip clip = _clips[index];
+        GetComponent<AudioSource>().PlayOneShot(clip);
         GetComponent<SpriteRenderer>().sprite = _deadSprite;
         _particleSystem.Play();
         yield return new WaitForSeconds(2);
