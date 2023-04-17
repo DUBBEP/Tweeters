@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 0b7580d440e34c646b524178d07b6c40
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Urban Elegance
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 983f0cc1c0d669941ae384c7bc783fa4, type: 3}
+  - {fileID: 12800000, guid: a6b0dedcb7dda124d8eba92b396fda4c, type: 3}
+  - {fileID: 12800000, guid: 853a3467bb9461d4eaede8ae4b94ecdd, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

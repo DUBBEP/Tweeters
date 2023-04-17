@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 1c5cd7764c4c3564fa783d0119db88e9
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Square721 BT
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 79e41ec935e30e94e9444d0e9fddcd3d, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

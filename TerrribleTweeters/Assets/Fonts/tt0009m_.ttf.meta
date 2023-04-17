@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 7fd586e2d6a3e9f46921be27b73afda6
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Swis721 Cn BT
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 54ba9b6379fdb904c87cf07fb73c70ab, type: 3}
+  - {fileID: 12800000, guid: 1d4fdea499f14ab4a9bcbaa223a356aa, type: 3}
+  - {fileID: 12800000, guid: 9ee2376e75d002a43bbc21b9768663db, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

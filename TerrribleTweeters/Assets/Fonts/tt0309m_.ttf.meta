@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: cab8a2a7bd9b75242bc0ffa4757def57
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - GeoSlab703 Md BT
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: baf17d941729e3a468a1a2be9985a917, type: 3}
+  - {fileID: 12800000, guid: e6e159cea00dc0749b85ea132b25aa25, type: 3}
+  - {fileID: 12800000, guid: 74a78bcf1f6cbcc4b8efa4398fa1896a, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

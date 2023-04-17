@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 3cdee0aa86ccf9040b19f94ea59c3d6d
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Clarendon BT
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: b62894b5515af59488fb2cb97ab09577, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

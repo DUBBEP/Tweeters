@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: f5322724f4dd4fe40a08bad2348db910
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Humnst777 Cn BT
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 73eb649845d7fd64d84f03b711b70b11, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

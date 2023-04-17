@@ -61,7 +61,6 @@ public class Monster : MonoBehaviour
         int index = UnityEngine.Random.Range(0, _clips.Length);
         AudioClip clip = _clips[index];
         GetComponent<AudioSource>().PlayOneShot(clip);
-        GetComponent<SpriteRenderer>().sprite = _deadSprite;
         _particleSystem.Play();
         yield return new WaitForSeconds(2);
         gameObject.SetActive(false);

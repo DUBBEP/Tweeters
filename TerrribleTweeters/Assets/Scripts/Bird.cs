@@ -29,7 +29,7 @@ public class Bird : MonoBehaviour
 
     void OnMouseDown()
     {
-        GetComponent<SpriteRenderer>().color = Color.red;
+        _spriteRenderer.color = Color.red;
         IsDragging = true;
     }
 
@@ -45,9 +45,9 @@ public class Bird : MonoBehaviour
         var audioSource = GetComponent<AudioSource>();
         audioSource.Play();
 
-        GetComponent<SpriteRenderer>().color = Color.white;
+        _spriteRenderer.color = Color.white;
         IsDragging = false;
-        
+        _rigidbody2D.freezeRotation = false;
     }
 
     void OnMouseDrag()
@@ -89,6 +89,8 @@ public class Bird : MonoBehaviour
     IEnumerator ResetAfterDelay()
     {
         yield return new WaitForSeconds(2);
+        _rigidbody2D.SetRotation(0f); 
+        _rigidbody2D.freezeRotation = true;
         _rigidbody2D.position = _startPosition;
         _rigidbody2D.isKinematic = true;
         _rigidbody2D.velocity = Vector2.zero;

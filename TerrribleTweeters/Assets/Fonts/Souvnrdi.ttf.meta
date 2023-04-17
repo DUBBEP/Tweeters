@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 29232aa2c7e0e4f4ebf30754645deb25
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Souvenir Lt BT
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: a416092eefcf01c4aaf24566f53303be, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

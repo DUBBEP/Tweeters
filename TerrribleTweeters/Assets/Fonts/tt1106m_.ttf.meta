@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 545608a0c2a2739448e9199841757918
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Schadow BT
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 448cb40a7b7f0814d8374d4c5caf27a9, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

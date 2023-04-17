@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 9fea386371bfbf24f8d681079dd411e7
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Square721 Cn BT
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 2dbb2572421d6a94082f182f6445f287, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

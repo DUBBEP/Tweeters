@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 33df7cae0c90d8e41b29273f3db0ca40
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - VDS Compensated
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 019d1268a921044458c2ebbe08f9de31, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
