@@ -318,7 +318,7 @@ RectTransform:
   m_GameObject: {fileID: 620323107}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.71713, y: 0.71713, z: 0.71713}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1832853999}
@@ -326,7 +326,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 172.5}
+  m_AnchoredPosition: {x: 0, y: 86}
   m_SizeDelta: {x: 685.6, y: 74.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &620323109
@@ -547,7 +547,7 @@ RectTransform:
   m_GameObject: {fileID: 742584372}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.78784, y: 0.78784, z: 0.78784}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1832853999}
@@ -555,7 +555,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -234.5}
+  m_AnchoredPosition: {x: 0, y: -121}
   m_SizeDelta: {x: 358.62, y: 80.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &742584374
@@ -851,7 +851,7 @@ RectTransform:
   m_GameObject: {fileID: 1134081968}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.71713, y: 0.71713, z: 0.71713}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1832853999}
@@ -859,7 +859,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 276.5}
+  m_AnchoredPosition: {x: 0, y: 160.58098}
   m_SizeDelta: {x: 685.6, y: 74.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1134081970
@@ -1232,7 +1232,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
